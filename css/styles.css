@@ -22,7 +22,8 @@ body {
     background-size: cover;
     min-height: 100vh;
     text-align: center;
-    color: #fff
+    color: #fff;
+    padding-bottom: 30px
 }
 
 .header__title {
