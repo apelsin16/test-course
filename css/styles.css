@@ -20,7 +20,7 @@ body {
 .header {
     background-image: url('../images/bg-header.jpg');
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     color: #fff
 }
