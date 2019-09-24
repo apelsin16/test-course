@@ -26,7 +26,6 @@ body {
 }
 
 .header__title {
-    margin-top: 30px;
     font-size: 56px;
 }
 
@@ -43,8 +42,8 @@ body {
     margin: 20px auto;
     color: #fff;
     box-shadow: #000 1px 1px 8px 0;
-    text-decoration: none
-
+    text-decoration: none;
+    border: none
 }
 
 .info {
@@ -162,4 +161,74 @@ body {
     font-style: italic;
     margin: 20px 0;
 }
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+
+.author__image {
+    float: left; 
+    width: 30%;
+    margin-right: 20px;
+}
+
+.price {
+    color: #fff
+}
+
+.price__text {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.price__text--second {
+    font-size: 40px;
+    color: #eff6ee
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .lists__wrapper {
+        flex-direction: column;
+        margin-left: 10%;   
+    } 
+    .list__wrapper {
+        margin-top: 20px;
+    }
+
+    .important-text p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .important-text {
+        background-image: none;
+        height: auto;
+    }
+
+    .important-text p {
+        position: static;
+        transform: translate(0, 0);
+    }
+
+    .author__image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .header__title {
+        font-size: 36px;
+    }
+}
+
 
