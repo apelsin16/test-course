@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html {
@@ -14,7 +14,7 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1020px
+    max-width: 1020px;
 }
 
 .header {
@@ -43,7 +43,7 @@ body {
     color: #fff;
     box-shadow: #000 1px 1px 8px 0;
     text-decoration: none;
-    border: none
+    border: none;
 }
 
 .info {
@@ -127,7 +127,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px
+    font-size: 20px;
 }
 
 .reviews {
@@ -177,7 +177,7 @@ body {
 }
 
 .price {
-    color: #fff
+    color: #fff;
 }
 
 .price__text {
@@ -188,7 +188,7 @@ body {
 
 .price__text--second {
     font-size: 40px;
-    color: #eff6ee
+    color: #eff6ee;
 }
 
 .hidden {
