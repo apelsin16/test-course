@@ -248,7 +248,10 @@ body {
 
 @media screen and (max-width: 440px) {
     .header__title,
-    .section__title,
+    .section__title {
+        font-size: 25px;
+    }
+
     .header__subtitle {
         font-size: 20px;
     }
